@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+</head>
+<body>
+    <style>
+        div{
+            margin: 30px;
+
+        }
+        input{
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+    <h1> LIBROS </h1>
+<div > 
+    <form>
+        <label for="isbn"> ISBN:
+            <input type="number" id="isbn">
+        </label>
+        <br>
+        <label for="titulo"> Titulo:
+            <input type="text" id="titulo">
+        </label>
+        <br>
+        <label for="autor"> Autor:
+            <input type="text" id="autor">
+        </label>
+        <br>
+        <label for="paginas"> Num Paginas:
+            <input type="number" id="paginas" min="1" max="300">
+        </label>
+        <br>
+    </form>
+    <button type="submit" id="boton"> Enviar </button>
+</div>
+
+<div>
+    <p id="isbnT"> </p>
+    <p id="tituloT"> </p>
+    <p id="autorT"> </p>
+    <p id="paginasT"> </p>
+
+</div>
+
+
+    <script src="scriptsEj14.js"></script>
+</body>
+
+
+</html>
+<!--
+    Crear un objeto libro que contenga las siguientes propiedades: ISBN, Título, Autor, 
+Número de páginas. Crear un método para cargar un libro pidiendo los datos al usuario 
+y luego informar mediante otro método el número de ISBN, el título, el autor del libro y el 
+numero de páginas
+-->

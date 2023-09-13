@@ -1,0 +1,16 @@
+#divPadre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+#div1,
+#div2 {
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    margin: 80px;
+    margin-top: 250px;
+    border-radius: 10%;
+}

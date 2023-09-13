@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 13</title>
+    <style>
+        div{
+            margin: 30px;
+
+        }
+        input{
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+
+
+<body>
+<div > 
+    <form>
+        <label for="nombre"> Nombre:
+            <input type="text" id="nombre">
+        </label>
+        <br>
+        <label for="edad"> Edad:
+            <input type="number" id="edad" min="1" max="100">
+        </label>
+        <br>
+        <label for="sexo"> Sexo:
+            <select id="sexo">
+                <option id="hombre" value="H"> H </option>
+                <option id="mujer" value="M"> M </option>
+                <option id="otro" value="O"> O </option>
+            </select>
+        </label>
+        <br>
+        <label for="peso"> Peso:
+            <input type="number" id="peso" min="1" max="300">
+        </label>
+        <br>
+        <label for="altura"> Altura:
+            <input type="number" id="altura" min="1" max="3" step="any">
+        </label>
+    </form>
+    <button type="submit" id="boton"> Enviar </button>
+</div>
+
+<div>
+    <p id="objeto"> </p>
+</div>
+
+    <script src="scriptsEj13.js"> </script>
+</body>
+
+</html>
+
+<!--
+    Crear un objeto persona, con las propiedades nombre, edad, sexo ('H' hombre, 'M' mujer, 
+'O' otro), peso y altura. A continuación, muestre las propiedades del objeto JavaScript.
+-->
